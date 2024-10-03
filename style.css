@@ -2,5 +2,7 @@ nav{
 	display: flex;
 	justify-content: space-between;
 	background: #14213D;
-	box-shadow: ;
+	box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.08 ) ;
+	padding: 2rem 3rem;
+	scroll-margin-top: 25px;
 }
