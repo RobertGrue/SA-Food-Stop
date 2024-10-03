@@ -4,5 +4,9 @@ nav{
 	background: #14213D;
 	box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.08 ) ;
 	padding: 2rem 3rem;
-	
+	width: Fixed 1,440px;
+	height: Fixed 208.75px;
+	top: -18.75px;
+	gap: 0px;
+	opacity: var(--sds-size-stroke-border);
 }
