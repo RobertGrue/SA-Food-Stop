@@ -63,3 +63,8 @@ a:hover{
     display: block;
   }
 
+.image-row {
+  display: flex;
+  justify-content: space-between;
+ 
+
