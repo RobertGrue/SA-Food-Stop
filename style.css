@@ -83,7 +83,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.hero-before {
+.hero-before: {
     content: "";
     position: absolute;
     top: 0;
