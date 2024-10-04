@@ -76,7 +76,7 @@ body, html {
 }
 
 .hero-image {
-	
+
   height: 50%;
   display: flex;
   background-position: center;
@@ -109,3 +109,44 @@ body, html {
   background-color: #555;
   color: white;
 }
+
+.btn-slide.btn-bg {
+  background-color: var(--light-color);
+}
+
+.btn-slide {
+  position: relative;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+}
+
+.btn-slide.hover-slide-right::before {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 3%;
+  position: absolute;
+  content: "";
+  background-color: var(--primary-color);
+  transition: 0.3s ease-in-out;
+}
+
+.btn-slide span {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.btn-slide.hover-slide-right:hover::before {
+  width: 100%;
+}
+
+.btn-slide.hover-slide-right:hover span {
+  color: var(--light-color);
