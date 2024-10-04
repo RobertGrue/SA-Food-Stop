@@ -67,11 +67,6 @@ a:hover{
 	.image-row {
   		display: flex;
   		justify-content: space-between;
-  }
+ }
 
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Protest Strike, sans-serif;
-}
-
+ 
