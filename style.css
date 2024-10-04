@@ -82,20 +82,19 @@ a:hover{
 	line-height: normal;
  }
  
- }
- .footer-ul{
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#14213D;
+  color: white;
+  text-align: center;
+}
+footer ul{
  	display: flex;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	gap: 40px;	
 	color: #fff;
- }
-  .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
