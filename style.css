@@ -34,7 +34,6 @@ a:hover{
  	text-decoration: underline;	
  }
 
-//*testimonial*//
 .container {
   	border: 2px solid #ccc;
   	background-color: #F4845F8C;
@@ -63,7 +62,7 @@ a:hover{
     float: none;
     display: block;
   }
-////////*images for pictures of food / events*/////////////////
+
 
 		.image-row {
   		display: flex;
@@ -71,7 +70,7 @@ a:hover{
   
 }
  
-/////////////*hero*////////////
+
 body {
     margin: 0;
     padding: 0;
@@ -85,7 +84,7 @@ body {
     align-items: center;
 }
 .hero::before {
-    content: "";
+    content: "images/hero.jpg";
     position: absolute;
     top: 0;
     left: 0;
