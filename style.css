@@ -75,7 +75,7 @@ a:hover{
 	flex-shrink: 0;
 	color: #000;
 	text-align: center;
-	font-family: Oswald;
+	font-family: protest strike;
 	font-size: 48px;
 	font-style: normal;
 	font-weight: 600;
@@ -84,7 +84,7 @@ a:hover{
 
  .container img{
  	margin-top: 0px;
- 	
+
  }
 
 .button-47 {
@@ -95,7 +95,7 @@ a:hover{
   box-sizing: border-box;
   color: #1A202C;
   display: inline-flex;
-  font-family: Inter, sans-serif;
+  font-family: protest strike, sans-serif;
   font-size: 1rem;
   font-weight: 700;
   height: 56px;
