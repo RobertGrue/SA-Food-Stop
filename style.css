@@ -69,8 +69,14 @@ a:hover{
   		justify-content: space-between;
   }
 
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Protest Strike, sans-serif;
+}
+
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
