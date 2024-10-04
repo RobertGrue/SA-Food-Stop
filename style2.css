@@ -51,7 +51,7 @@ a:hover{
 }
 .container span {
   font-size: 20px;
-  margin-right: 15px;
+  margin-right: 875px;
 }
 @media (max-width: 500px) {
   .container {
@@ -63,6 +63,3 @@ a:hover{
     float: none;
     display: block;
   }
-h3{
-  	text-align: center;
-}
