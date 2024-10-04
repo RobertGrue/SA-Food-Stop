@@ -98,3 +98,7 @@ a:hover{
 	gap: 40px;	
 	color: #fff;
  }
+  footer a{
+  	color: #fff;
+ 	text-decoration: none;
+  }
