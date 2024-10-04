@@ -31,3 +31,18 @@ a:hover{
 	color: #fff;
  	text-decoration: underline;	
  }
+
+ .container {
+  	border: 2px solid #ccc;
+  	background-color: #F4845F8C;
+  	border-radius: 49px;
+  	padding: 16px;
+  	margin: 16px 0;
+  	box-shadow: 0px 4px 39.1px 7px rgba(0, 0, 0, 0.76);
+
+  .container img {
+  	float: left;
+  	margin-right: 20px;
+  	border-radius: 50%;
+
+
