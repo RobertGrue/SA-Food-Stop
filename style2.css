@@ -16,7 +16,10 @@ nav{
 	box-shadow: 0px 4px 14.5px 5px rgba(0, 0, 0, 0.91);
 	padding: 2rem 3rem;color: #000;
 }
-
+@media screen amd {max-width: 900px} {
+	nav{
+		flex-direction: column;
+	}
 nav ul{
 	display: flex;
 	list-style: none;
