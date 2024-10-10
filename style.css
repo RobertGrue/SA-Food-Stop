@@ -14,7 +14,7 @@ nav{
 	padding: 2rem 3rem;color: #000;
 }
 
-@media screen amd {max-width: 900px} {
+@media screen amd {max-width: 480px} {
 	nav{
 		flex-direction: column;
 		gap: 1 rem;
@@ -30,7 +30,7 @@ nav ul{
 	color: #fff;
 }
  
- @media screen amd {max-width: 900px} {
+ @media screen amd {max-width: 480px} {
 	nav ul{
 		flex-direction: column;
 		gap: 1 rem;
@@ -64,7 +64,7 @@ a:hover{
   		font-size: 20px;
   		margin-right: 875px;
 }
-@media (max-width: 500px) {
+@media (max-width: 480px) {
 .container {
    	text-align: center;
   }
@@ -72,7 +72,7 @@ a:hover{
 .container img {
     margin: auto;
     float: none;
-    display: block;
+    display: flex;
   }
 
 
