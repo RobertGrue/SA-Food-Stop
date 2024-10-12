@@ -14,10 +14,10 @@ nav{
 	padding: 2rem 3rem;color: #000;
 }
 
-@media screen amd {max-width: 480px} {
+@media screen and (max-width: 480px) {
 	nav{
 		flex-direction: column;
-		gap: 1 rem;
+		gap: 1rem;
 	}
 }
 
@@ -30,11 +30,12 @@ nav ul{
 	color: #fff;
 }
  
- @media screen amd {max-width: 480px} {
-	nav ul{
+ @media screen and (max-width: 480px) {
+	nav ul {
 		flex-direction: column;
-		gap: 1 rem;
+		gap: 1rem;
 	}
+}
 
 a{
  	color: #fff;
@@ -105,3 +106,6 @@ a:hover{
   margin-bottom: 0px;
 }
  
+ li{
+ 	position: relative;
+ }
