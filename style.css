@@ -96,6 +96,7 @@ a:hover{
  }
  
   .footer {
+  	display: flex;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -109,3 +110,25 @@ a:hover{
  li{
  	position: relative;
  }
+ .section{
+ 	width: 1380.94px;
+	height: 936px;
+	flex-shrink: 0;
+	border-radius: 32px;
+	background: var(--Form-Bg, #F6FBF9);
+	align-content: center;
+ }
+
+ @media screen and (max-width: 480px) {
+	footer ul {
+		flex-direction: column;
+		gap: 1rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	footer{
+		flex-direction: column;
+		gap: 1rem;
+	}
+}
